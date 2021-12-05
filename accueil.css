@@ -84,16 +84,19 @@ html {
   padding: 15px;
   color: #ffffff;
   text-align: center;
-  font-size: 14px;
+  font-size: 8vw;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .footer {
-  background-color: #0099cc;
-  color: #ffffff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
   text-align: center;
-  font-size: 12px;
-  padding: 15px;
+  opacity: 99%;
 }
 
 /* For mobile phones: */
@@ -132,6 +135,8 @@ html {
   .col-12 {width: 100%;}
 }
 .LogoCenter {
+ max-width:100%;
+ height: auto;
   width: 1150px;
   height: 200px;
   text-align: center;
@@ -147,7 +152,7 @@ html {
   /*bottom:100px;
   padding-bottom: 385px;*/
   padding-left: 580px;
-  font-size: 150%;
+  font-size: 8vw;
   font-family: Archivo;
   src: url("https://www.dafontfree.net/embed/YXJjaGl2by1ibGFjay1yZWd1bGFyJmRhdGEvMTYvYS83Nzc3My9BcmNoaXZvQmxhY2stUmVndWxhci50dGY");
   font-weight: bold;
